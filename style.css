@@ -1,0 +1,27 @@
+nav{
+    background-color: #261966;
+    color: white;
+   
+}
+.nav-item .nav-link{
+    color: white;
+}
+.nav-item .nav-link{
+    color: white;
+}
+.nav-item .nav-link:hover{
+    color: orangered;
+}
+.home-heading1{
+  padding: 150px;
+  width: 65%;
+  color: white;
+  
+}
+.home{
+    background-image: url("img/hero_bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+   
+}
