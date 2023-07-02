@@ -159,15 +159,36 @@ nav{
     display: flex;
     flex-wrap: wrap;
     color: #676570;
-    
+    padding: 50px;
+   
 }
 .partners-company{
     width: 33%;
+    gap: 60%;
 }
 .partners{
     background-color: #0d0a1b;
 }
 .partners-list img{
-    width: 100%;
+    width: 50%;
+    
 
+}
+
+.contactus{
+    background-color: #0d0a1b;
+    padding: 50px;
+    color: white;
+   
+}
+.contactus img{
+    width: 100%;
+}
+.contact-details{
+    color: #0d0a1b;
+    border: none;
+    border-color: #0d0a1b;
+}
+footer{
+    background-color: #0d0a1b;
 }
