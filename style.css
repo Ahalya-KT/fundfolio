@@ -74,6 +74,7 @@ nav{
 }
 .our-way{
     background-color:#0d0a1b;
+    
    
 }
 .our-way-list{
@@ -191,4 +192,19 @@ nav{
 }
 footer{
     background-color: #0d0a1b;
+}
+footer p{
+    color: white;
+}
+footer h5 span{
+    color: orangered;
+    font-size: larger;
+}
+.lastsection{
+    background-color: #0d0a1b;
+    padding: 60px;
+}
+.lastsection p{
+    color: white;
+    text-align: center;
 }
