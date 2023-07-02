@@ -155,3 +155,19 @@ nav{
 .sect2:hover{
     background-color:#554a99;
 }
+.partners-list{
+    display: flex;
+    flex-wrap: wrap;
+    color: #676570;
+    
+}
+.partners-company{
+    width: 33%;
+}
+.partners{
+    background-color: #0d0a1b;
+}
+.partners-list img{
+    width: 100%;
+
+}
