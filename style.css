@@ -79,23 +79,28 @@ nav{
 }
 .our-way-list{
     color:white ;
-    margin-left: 70px;
-    font-size: 40px;
-    font-weight: 900;
+    margin-left: 80px;
+    font-size: 60px;
+    /* font-weight: 900; */
+    padding-left: 80px;
+   
+   
 }
 .our-way-next p{
     color: white;
-    /* width: 50%; */
+    width: 80%;
+    height: 50vh;
     text-align: center;
+    padding: 60px;
+    font-size: 20px;
+    
 }
 .our-way-next {
     background-color: #141122;
-    width: 100%;
-    height: 50vh;
-    align-items: center;
-    padding: 150px;
-    border-radius: 5%;
+    width: 40%;
+    border-radius: 5%; 
 }
+
 .our-way-list .edu:hover{
     color: #41d8f6;
 }
@@ -113,14 +118,15 @@ nav{
     padding: 100px;
 }
 .sect1 p{
-    color: #676570;
-    width: 50%;
-    margin-left: 60px;
+    color: #44424f;
+    width: 80%;
+    /* margin-left: 100px; */
+    padding-left: 100px;
     
 }
 .sect1{
     background-color: #141122;
-    width: 50%;
+    width: 30%;
     height: 40vh;
     border-radius: 5%;
     
@@ -128,17 +134,18 @@ nav{
  .sect1 h3{
 
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 .sect2 p{
-    color: #676570;
-    width: 50%;
-    margin-left: 60px;
+    color: #44424f;
+    width: 80%;
+    /* margin-left: 100px; */
+    padding-left: 90px;
     
 }
 .sect2{
     background-color: #141122;
-    width: 50%;
+    width: 30%;
     height: 40vh;
     margin-right: 90px;
     gap: 2%;
@@ -148,7 +155,10 @@ nav{
  .sect2 h3{
 
     text-align: center;
-    padding: 20px;
+    padding: 30px;
+}
+.product-items{
+    gap:10%;
 }
 .sect1:hover{
     background-color: #bc920c;
@@ -161,7 +171,7 @@ nav{
     flex-wrap: wrap;
     color: #676570;
     padding: 50px;
-   
+    
 }
 .partners-company{
     width: 33%;
@@ -207,4 +217,8 @@ footer h5 span{
 .lastsection p{
     color: white;
     text-align: center;
+}
+
+.our-way1{
+gap:10%;
 }
