@@ -4,7 +4,8 @@
     margin: 0;
 }
 nav{
-    background-color: #261966;
+    /* background-color: #261966; */
+    backdrop-filter: blur(20px);
     color: white;
    
 }
@@ -50,6 +51,9 @@ nav{
     padding: 150px;
     gap: 20px;
 }
+.about h1{
+    font-size: 40px;
+}
 .about-heading{
     color: white;
     font-size: 40px;
@@ -62,7 +66,7 @@ nav{
 }
 .about-numb{
     color: #42d1f6;
-    font-size: 70px;
+    font-size: 90px;
     font-weight: bold;
 }
 .about-para2{
@@ -76,6 +80,11 @@ nav{
     background-color:#0d0a1b;
     
    
+}
+
+.ourway-subhead{
+    
+    padding-left: 80px;
 }
 .our-way-list{
     color:white ;
@@ -116,6 +125,15 @@ nav{
     background-color: #0d0a1b;
     color: white;
     padding: 100px;
+}
+.product-subhead{
+    color:#2d2a39;
+
+    
+}
+
+.product-items{
+    padding: 40px;
 }
 .sect1 p{
     color: #44424f;
@@ -190,6 +208,11 @@ nav{
 
 .contactus{
     background-color: #0d0a1b;
+}
+
+.contact-subhead{
+    padding-left: 80px;
+    
 }
 .contactus img{
     width: 100%;
