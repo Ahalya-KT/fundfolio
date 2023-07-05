@@ -224,10 +224,8 @@ nav{
     border: none;
     border-bottom: 2px solid honeydew;
     background-color: #0d0a1b;
+    width: 200%;
    
-    
-    
-    
 }
 
 .contact-item1 p{
@@ -237,6 +235,8 @@ nav{
 
 .contanct-items2{
     padding-left: 150px;
+    background-image: url("https://fundfolio.gumlet.io/fundfolio/location-bg.jpg?w=3840&q=75");
+   
    
     
 }
