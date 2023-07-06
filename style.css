@@ -171,14 +171,64 @@ nav{
 }
 .product-marketfeed:hover{
     background-color: #bc920c;
+    outline: #555555 .5px solid;
+        outline-offset: 10px;
     .marketfeed-head{
         opacity: 0;
     }
+    .marketfeed-para{
+        display: none;
+    }
+    .marketfeed-logo{
+        width: 200px;
+        height: 40px;
+        transition: 1s;
+    }
+    .marketfeed-arrow{
+        display: block;
+        transition: 1s;
+    }
+
+    
+
 }
+
+.marketfeed-arrow{
+    display: none;
+}
+
+
 .product-fundfoilo:hover{
     background-color:#554a99;
+    outline: #555555 .5px solid;
+    outline-offset: 10px;
+
+    .fundfolio-head{
+        opacity: 0;
+    }
+
+    .fundfolio-para{
+        display: none;
+    }
+
+    .fundfoilo-logo{
+        width: 200px;
+        height: 40px;
+        transition: 1s;
+    }
+    .fundfolio-arrow{
+        display: block;
+        transition: 1s;
+    }
+    
     
 }
+
+
+.fundfolio-arrow{
+    display: none;
+}
+
 .partners-list{
     display: flex;
     flex-wrap: wrap;
@@ -216,6 +266,9 @@ nav{
     
    
 }
+.contact-type{
+    font-size: 20px;
+}
 .contact-details{
     color: #0d0a1b;
     border: none;
@@ -224,6 +277,7 @@ nav{
     width: 30%;
     padding: 20px;
     outline: none;
+    font-size: 20px;
    
    
 }
