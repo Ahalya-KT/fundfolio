@@ -169,12 +169,12 @@ nav{
 .product-items{
     gap:10%;
 }
-/* .sect1:hover{
+.product-marketfeed:hover{
     background-color: #bc920c;
 }
-.sect2:hover{
+.product-fundfoilo:hover{
     background-color:#554a99;
-} */
+}
 .partners-list{
     display: flex;
     flex-wrap: wrap;
