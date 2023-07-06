@@ -171,9 +171,13 @@ nav{
 }
 .product-marketfeed:hover{
     background-color: #bc920c;
+    .marketfeed-head{
+        opacity: 0;
+    }
 }
 .product-fundfoilo:hover{
     background-color:#554a99;
+    
 }
 .partners-list{
     display: flex;
