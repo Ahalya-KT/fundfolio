@@ -136,13 +136,7 @@ nav{
     padding: 40px;
    
 }
-/* .sect1 p{
-    color: #44424f;
-    width: 80%; */
-    /* margin-left: 100px; */
-    /* padding-left: 100px; */
-    
-/* } */
+
 .product-fundfoilo{
     background-color: #141122;
     width: 30%;
@@ -158,13 +152,7 @@ nav{
  .marketfeed-explore{
     align-items: center;
  }
-/* .sect2 p{
-    color: #44424f;
-    width: 80%;
-    /* margin-left: 100px; */
-    /* padding-left: 90px; */
-    
-/* } */ 
+
 .product-marketfeed{
     background-color: #141122;
     width: 30%;
@@ -175,11 +163,7 @@ nav{
     padding: 40px;
    
 }
- /* .sect2 h3{
-
-    text-align: center;
-    padding: 30px;
-} */
+ 
 .product-items{
     gap:10%;
 }
@@ -255,11 +239,7 @@ nav{
     
 }
 
-/* .contact-item1{
-    gap:10%;
-    align-items: center;
-   
-} */
+
 
 .contanct-items1 p{
     color: white;
