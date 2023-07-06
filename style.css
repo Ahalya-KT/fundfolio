@@ -134,47 +134,52 @@ nav{
 
 .product-items{
     padding: 40px;
+   
 }
-.sect1 p{
+/* .sect1 p{
     color: #44424f;
-    width: 80%;
+    width: 80%; */
     /* margin-left: 100px; */
-    padding-left: 100px;
+    /* padding-left: 100px; */
     
-}
-.sect1{
+/* } */
+.product-fundfoilo{
     background-color: #141122;
     width: 30%;
     height: 40vh;
     border-radius: 5%;
+    padding: 40px;
     
 }
- .sect1 h3{
-
-    text-align: center;
-    padding: 30px;
+.fundfolio-explore{
+    align-items: center;
 }
-.sect2 p{
+
+ .marketfeed-explore{
+    align-items: center;
+ }
+/* .sect2 p{
     color: #44424f;
     width: 80%;
     /* margin-left: 100px; */
-    padding-left: 90px;
+    /* padding-left: 90px; */
     
-}
-.sect2{
+/* } */ 
+.product-marketfeed{
     background-color: #141122;
     width: 30%;
     height: 40vh;
     margin-right: 90px;
     gap: 2%;
     border-radius: 5%;
+    padding: 40px;
    
 }
- .sect2 h3{
+ /* .sect2 h3{
 
     text-align: center;
     padding: 30px;
-}
+} */
 .product-items{
     gap:10%;
 }
