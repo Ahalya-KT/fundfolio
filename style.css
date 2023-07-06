@@ -4,7 +4,7 @@
     margin: 0;
 }
 nav{
-    /* background-color: #261966; */
+    
     backdrop-filter: blur(20px);
     color: white;
    
@@ -48,7 +48,7 @@ nav{
 .about{
     background-color: #0d0a1b;
     /* height: 800vh; */
-    padding: 150px;
+    padding: 200px;
     gap: 20px;
 }
 .about h1{
@@ -66,11 +66,17 @@ nav{
 }
 .about-numb{
     color: #42d1f6;
-    font-size: 90px;
+    font-size: 100px;
     font-weight: bold;
+    /* background-image: url("https://fundfolio.gumlet.io/fundfolio/pattern.svg?w=128&q=75");
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 40vh; */
 }
+
 .about-para2{
     color: #676570;
+   
 }
 .home-heading1 h1{
     font-size: 40px;
@@ -78,7 +84,7 @@ nav{
 }
 .our-way{
     background-color:#0d0a1b;
-    
+    padding: 70px;
    
 }
 
@@ -124,7 +130,7 @@ nav{
 .products{
     background-color: #0d0a1b;
     color: white;
-    padding: 100px;
+    padding: 140px;
 }
 .product-subhead{
     color:#2d2a39;
@@ -136,6 +142,9 @@ nav{
     padding: 40px;
    
 }
+.partners{
+    padding: 100px;
+}
 
 .product-fundfoilo{
     background-color: #141122;
@@ -145,13 +154,6 @@ nav{
     padding: 40px;
     
 }
-.fundfolio-explore{
-    align-items: center;
-}
-
- .marketfeed-explore{
-    align-items: center;
- }
 
 .product-marketfeed{
     background-color: #141122;
@@ -167,12 +169,12 @@ nav{
 .product-items{
     gap:10%;
 }
-.sect1:hover{
+/* .sect1:hover{
     background-color: #bc920c;
 }
 .sect2:hover{
     background-color:#554a99;
-}
+} */
 .partners-list{
     display: flex;
     flex-wrap: wrap;
@@ -198,6 +200,7 @@ nav{
 .contactus{
     background-color: #0d0a1b;
     height: 100vh;
+    padding: 60px;
 }
 
 .contact-subhead{
