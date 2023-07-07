@@ -29,6 +29,8 @@ nav{
 }
 .nav-item .nav-link{
     color: white;
+    font-family: gilroy-bold;
+    font-size: 16px;
 }
 .nav-item .nav-link{
     color: white;
@@ -37,7 +39,8 @@ nav{
     color: orangered;
 }
 .home-heading1{
-  padding: 150px;
+  padding-top: 150px;
+  padding-left: 50px;
   /* width:4%; */
   color: white; 
   text-align: start;
@@ -315,6 +318,9 @@ nav{
     width: 33%;
     padding-bottom: 40px;
     text-align: center;
+    /* border-right-style: solid; */
+    /* border-bottom-style: solid; */
+
 }
 .partners{
     background-color: #0d0a1b;
@@ -357,11 +363,12 @@ nav{
     border-bottom: 2px solid honeydew;
     background-color: #0d0a1b;
     width: 30%;
-    padding: 20px;
+    padding: 20px 0;
     outline: none;
     font-size: 20px;
     font-family: gilroy-medium;
     font-size: 20px;
+    color: white;
    
    
 }
@@ -398,18 +405,29 @@ footer{
     font-family: gilroy-regular;
 }
 footer p{
-    color: white;
+    color:#c0bfc4;
     font-family: gilroy-regular;
     font-size: 20px;
 }
-.footer h6{
+footer{
+    text-align: start;
+}
+.foot-name{
     font-family: gilroy-regular;
     font-size: 24px;
+    color: #363342;
    
 }
 footer h5 span{
     color: orangered;
     font-size: larger;
+}
+
+.foot-adr{
+    font-family: gilroy-regular;
+    font-size: 20px;
+    color:#7f7d87;
+    padding: 10px;
 }
 .lastsection{
     background-color: #0d0a1b;
