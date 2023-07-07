@@ -1,4 +1,10 @@
 
+@font-face {
+    font-family: 'gilroy-heavy';
+    src: url('./font/Gilroy-Heavy.ttf');
+}
+
+
 *{
     padding: 0;
     margin: 0;
@@ -22,8 +28,11 @@ nav{
   padding: 150px;
   /* width:4%; */
   color: white;
+  font-family: gilroy-heavy;
   
 }
+
+
 .home{
     background-image: url("img/hero_bg.svg");
     background-repeat: no-repeat;
