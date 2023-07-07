@@ -3,8 +3,20 @@
     font-family: 'gilroy-heavy';
     src: url('./font/Gilroy-Heavy.ttf');
 }
+@font-face {
+    font-family: 'gilroy-medium';
+    src: url('./font/Gilroy-Medium.ttf');
+}
 
+@font-face {
+    font-family: 'gilroy-bold';
+    src: url('./font/Gilroy-Bold.ttf');
+}
 
+@font-face {
+    font-family: 'gilroy-regular';
+    src: url('./font/Gilroy-Regular.ttf');
+}
 *{
     padding: 0;
     margin: 0;
@@ -27,13 +39,25 @@ nav{
 .home-heading1{
   padding: 150px;
   /* width:4%; */
-  color: white;
-  font-family: gilroy-heavy;
-  
+  color: white; 
+  text-align: start;
+
+}
+.home-heading1 h1{
+    font-family: gilroy-heavy;
+    
+}
+.home-heading1 p{
+    font-family: gilroy-medium;
+    font-size: 21.3333px;
+}
+#home-head1{
+    font-size:71.1111px;
+    
 }
 
 
-.home{
+#home{
     background-image: url("img/hero_bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,31 +76,43 @@ nav{
     border-radius: 30px;
     font-weight: bold;
     height: 50px;
+    font-family: gilroy-bold;
+    font-size: 24px;
+
 
 }  
 .about{
     background-color: #0d0a1b;
     /* height: 800vh; */
-    padding: 200px;
-    gap: 20px;
+    padding: 150px;
+    gap: 30%;
 }
 .about h1{
-    font-size: 40px;
+    font-size: 33.7778px;
+    font-family: gilroy-bold;
+    letter-spacing: 0.2px;
 }
 .about-heading{
     color: white;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 53.3333px;
+    font-family:gilroy-bold ;
+    width: 120%;
+   
 }
 
 .about-para{
     color:rgb(106, 106, 106);
-    width: 60%;
+    width: 90%;
+    font-family: gilroy-medium;
+    font-size: 21.3333px;
+    line-height: 26.6667px;
+
 }
-.about-numb{
+  .about .about-numb{
     color: #42d1f6;
-    font-size: 100px;
-    font-weight: bold;
+    font-family: gilroy-bold;
+    font-size: 88.8889px;
+    /* padding-top: -200px; */
     /* background-image: url("https://fundfolio.gumlet.io/fundfolio/pattern.svg?w=128&q=75");
     background-repeat: no-repeat;
     width: 50%;
@@ -85,12 +121,16 @@ nav{
 
 .about-para2{
     color: #676570;
-   
+    font-family: gilroy-bold;
+    font-size: 21.3333px;
+    padding-left: 40px;
+      
 }
-.home-heading1 h1{
+
+/* .home-heading1 h1{
     font-size: 40px;
     font-weight: bold;
-}
+} */
 .our-way{
     background-color:#0d0a1b;
     padding: 70px;
@@ -99,27 +139,34 @@ nav{
 
 .ourway-subhead{
     
-    padding-left: 80px;
+    padding-left: 100px;
+    font-family: gilroy-bold;
+    font-size: 24.8889px;
+   
 }
 .our-way-list{
     color:white ;
     margin-left: 80px;
-    font-size: 60px;
+    font-size: 53.3333px;
     /* font-weight: 900; */
     padding-left: 80px;
+    font-family: gilroy-bold;
+    letter-spacing: 0.2px;
    
    
 }
 .our-way-next p{
     color: white;
-    width: 80%;
+    width: 100%;
     height: 50vh;
     text-align: center;
-    padding: 60px;
-    font-size: 20px;
+    padding: 80px;
+    font-size: 26.66667px;
+    font-family: gilroy-regular;
+    line-height: 32px;
     
 }
-.our-way-next {
+.our-way-next  {
     background-color: #141122;
     width: 40%;
     border-radius: 5%; 
@@ -143,6 +190,8 @@ nav{
 }
 .product-subhead{
     color:#2d2a39;
+    font-family: gilroy-bold;
+    font-size: 33.7778px;
 
     
 }
@@ -206,6 +255,23 @@ nav{
     display: none;
 }
 
+.marketfeed-head{
+    font-family: gilroy-bold;
+}
+.marketfeed-para{
+    font-family: gilroy-regular;
+    line-height: 22px;
+}
+.explore{
+    font-family: gilroy-regular;
+}
+.fundfolio-head{
+    font-family: gilroy-bold;
+}
+.fundfilo-para{
+    font-family: gilroy-regular;
+    line-height: 22px;
+}
 
 .product-fundfoilo:hover{
     background-color:#554a99;
@@ -259,6 +325,10 @@ nav{
     
 
 }
+.partners h2{
+    font-family: gilroy-bold;
+    font-size: 38px;
+}
 
 .contactus{
     background-color: #0d0a1b;
@@ -268,6 +338,9 @@ nav{
 
 .contact-subhead{
     padding-left: 80px;
+    font-family: gilroy-bold;
+    font-size: 38px;
+
     
 }
 .contactus img{
@@ -275,9 +348,9 @@ nav{
     
    
 }
-.contact-type{
+/* .contact-type{
     font-size: 20px;
-}
+} */
 .contact-details{
     color: #0d0a1b;
     border: none;
@@ -287,12 +360,16 @@ nav{
     padding: 20px;
     outline: none;
     font-size: 20px;
+    font-family: gilroy-medium;
+    font-size: 20px;
    
    
 }
 
 .contact-item1 p{
     color: white;
+    font-family: gilroy-medium;
+    font-size: 20px;
     
 }
 
@@ -318,9 +395,17 @@ nav{
 }
 footer{
     background-color: #0d0a1b;
+    font-family: gilroy-regular;
 }
 footer p{
     color: white;
+    font-family: gilroy-regular;
+    font-size: 20px;
+}
+.footer h6{
+    font-family: gilroy-regular;
+    font-size: 24px;
+   
 }
 footer h5 span{
     color: orangered;
@@ -333,6 +418,8 @@ footer h5 span{
 .lastsection p{
     color: white;
     text-align: center;
+    font-family: gilroy-regular;
+    font-size: 18px;
 }
 
 .our-way1{
